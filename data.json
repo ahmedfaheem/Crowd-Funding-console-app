@@ -1,0 +1,42 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "first_name": "Ahmed",
+      "last_name": "Ali",
+      "email": "ahmed@gmail.com",
+      "password": "123456",
+      "phone": "01012345678",
+      "isActive": true
+    },
+    {
+      "id": 2,
+      "first_name": "ahmed",
+      "last_name": "faheem",
+      "email": "a7medfaheem@gmail.com",
+      "password": "123456789",
+      "phone": "01099492053",
+      "isActive": true
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "owner_id": 1,
+      "title": "School",
+      "details": "school",
+      "total_target": 2500,
+      "start_date": "2026-04-01",
+      "end_date": "2026-06-01"
+    },
+    {
+      "id": 2,
+      "owner_id": 1,
+      "title": "test",
+      "details": "test",
+      "total_target": "500",
+      "start_date": "2026-01-01",
+      "end_date": "2026-02-01"
+    }
+  ]
+}
